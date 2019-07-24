@@ -1,0 +1,4 @@
+Accession ID	Mutation Name	Avg Mutant CT	Mutant Quantity	Wildtype CT	Wildtype Quantity	Mutant Copies per mL	Wildtype Copies per mL	Allele Fraction	Total DNA Copies per mL	Result	Comment
+19-00087	T790M	31.14975	90.2	33.533966	115.23186	0.2	0.2	0.113	800	Detected	Exon 2 & 3
+19-00087	L858R	40.530315	0.5	31.771767	373.37048	12.25	12.5	10.93	3000	Not Detected
+19-00087	Del19	Undetermined	0.4	33.533966	115.23186	0	0	90.19	525	Not Detected

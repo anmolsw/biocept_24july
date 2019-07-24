@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>TestNG:  Nolecular Workflow</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Nolecular Workflow</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 19 00:06:15 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>391 seconds (391647 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.BRAFPIActivityResult()'><b>BRAFPIActivityResult</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to complete the BRAF Molecular Professional Interpretation activity</td>
+<td></td>
+<td>7</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.BRAFPIActivityTitle()'><b>BRAFPIActivityTitle</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to open BRAF Molecular Professional Interpretation activity</td>
+<td></td>
+<td>9</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.BRAFReportSignoff()'><b>BRAFReportSignoff</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to Signoff the BRAF Test Report from Molecular Review & Approve Worklist</td>
+<td></td>
+<td>33</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.BRAFResultingActivityTitle()'><b>BRAFResultingActivityTitle</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to open the BRAF Molecular Generic Resulting Activity</td>
+<td></td>
+<td>11</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.BRAFResultingUpdateResult()'><b>BRAFResultingUpdateResult</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to complete the BRAF Molecular Generic Resulting activity</td>
+<td></td>
+<td>4</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.BRAFSequencingActivityResult()'><b>BRAFSequencingActivityResult</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to complete the BRAF Sequencing activity</td>
+<td></td>
+<td>10</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.BRAFSequencingActivityTitle()'><b>BRAFSequencingActivityTitle</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to open BRAF Sequencing activity</td>
+<td></td>
+<td>36</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.KRASPIActivityResult()'><b>KRASPIActivityResult</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to complete the KRAS Molecular Professional Interpretation activity</td>
+<td></td>
+<td>6</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.KRASPIActivityTitle()'><b>KRASPIActivityTitle</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to open KRAS Molecular Professional Interpretation activity</td>
+<td></td>
+<td>4</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.KRASReportSignoff()'><b>KRASReportSignoff</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to Signoff the KRAS Test Report from Molecular Review & Approve Worklist</td>
+<td></td>
+<td>49</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.KRASResultingActivityTitle()'><b>KRASResultingActivityTitle</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to open the KRAS Molecular Generic Resulting activity</td>
+<td></td>
+<td>15</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.KRASResultingUpdateResult()'><b>KRASResultingUpdateResult</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to complete the KRAS Molecular Generic Resulting activity</td>
+<td></td>
+<td>7</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.KRASSequencingActivityResult()'><b>KRASSequencingActivityResult</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to complete the KRAS Sequencing activity</td>
+<td></td>
+<td>8</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.KRASSequencingActivityTitle()'><b>KRASSequencingActivityTitle</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to open KRAS Sequencing activity</td>
+<td></td>
+<td>18</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.NRASPIActivityResult()'><b>NRASPIActivityResult</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to complete the NRAS Molecular Professional Interpretation activity</td>
+<td></td>
+<td>9</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.NRASPIActivityTitle()'><b>NRASPIActivityTitle</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to open NRAS Molecular Professional Interpretation activity</td>
+<td></td>
+<td>9</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.NRASReportSignoff()'><b>NRASReportSignoff</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to Signoff the NRAS Test Report from Molecular Review & Approve Worklist</td>
+<td></td>
+<td>32</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.NRASResultingActivityTitle()'><b>NRASResultingActivityTitle</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to open the NRAS Molecular Generic Resulting Activity</td>
+<td></td>
+<td>33</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.NRASResultingUpdateResult()'><b>NRASResultingUpdateResult</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to complete the NRAS Molecular Generic Resulting activity</td>
+<td></td>
+<td>4</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.PlaceNewOrder()'><b>PlaceNewOrder</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to create a new accession for Molecular Test</td>
+<td></td>
+<td>50</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.UploadMacroFile()'><b>UploadMacroFile</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to open the upload Macro File page</td>
+<td></td>
+<td>5</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+<tr>
+<td title='biocept.qa.testcases.MolecularWorkflow.UploadSequenceImages()'><b>UploadSequenceImages</b><br>Test class: biocept.qa.testcases.MolecularWorkflow<br>Test method: Verify user is able to upload the Sequence image</td>
+<td></td>
+<td>18</td>
+<td>biocept.qa.testcases.MolecularWorkflow@6093dd95</td></tr>
+</table><p>
+</body>
+</html>

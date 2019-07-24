@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Biocept" >
+         
+  <test name="CTC-FISH Workflow for Global Cases">
+	 <classes>
+	   <class name="biocept.qa.testcases.BioceptTestBase"/>
+	   <class name="biocept.qa.testcases.CTCWorkflow"/>
+	 </classes>
+   </test>
+   
+    <test name="Molecular Workflow">
+	 <classes>
+	   <class name="biocept.qa.testcases.MolecularWorkflow"/>
+	 </classes>
+   </test>
+   
+    <test name="CTC-FISH Workflow for Tech Cases">
+	 <classes>
+	   <class name="biocept.qa.testcases.CTC_FISHTechOnlyWorkflow"/>
+	 </classes>
+   </test>
+
+</suite>

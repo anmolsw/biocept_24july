@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Biocept]">
+  <test name="Molecular Workflow(failed)">
+    <classes>
+      <class name="biocept.qa.testcases.CTC_FISHTechOnlyWorkflow">
+        <methods>
+          <include name="LogOut"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.CTC_FISHTechOnlyWorkflow -->
+      <class name="biocept.qa.testcases.MolecularWorkflow">
+        <methods>
+          <include name="PlaceNewOrderForMolecular"/>
+          <include name="KRASSequencingActivityTitle"/>
+          <include name="LogOut"/>
+          <include name="BRAFResultingActivityTitle"/>
+          <include name="setup"/>
+          <include name="NRASResultingActivityTitle"/>
+          <include name="getResult"/>
+          <include name="BRAFResultingUpdateResult"/>
+          <include name="UploadMacroFile"/>
+          <include name="KRASPIActivityResult"/>
+          <include name="NRASPIActivityResult"/>
+          <include name="BRAFSequencingActivityResult"/>
+          <include name="KRASReportSignoff"/>
+          <include name="BRAFPIActivityResult"/>
+          <include name="KRASResultingActivityTitle"/>
+          <include name="NRASReportSignoff"/>
+          <include name="UploadSequenceImages"/>
+          <include name="KRASResultingUpdateResult"/>
+          <include name="BRAFPIActivityTitle"/>
+          <include name="NRASResultingUpdateResult"/>
+          <include name="NRASPIActivityTitle"/>
+          <include name="KRASSequencingActivityResult"/>
+          <include name="BRAFSequencingActivityTitle"/>
+          <include name="KRASPIActivityTitle"/>
+          <include name="BRAFReportSignoff"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.MolecularWorkflow -->
+      <class name="biocept.qa.testcases.CTCWorkflow">
+        <methods>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="LogOut"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.CTCWorkflow -->
+      <class name="biocept.qa.testcases.BioceptTestBase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.BioceptTestBase -->
+    </classes>
+  </test> <!-- Molecular Workflow(failed) -->
+  <test name="CTC-FISH Workflow for Tech Cases(failed)">
+    <classes>
+      <class name="biocept.qa.testcases.CTC_FISHTechOnlyWorkflow">
+        <methods>
+          <include name="LogOut"/>
+          <include name="SignoffReportFromPhysicianPortal"/>
+          <include name="ConfirmationOnTechOnlyPI"/>
+          <include name="GoBacktoPhysicianPortalButton"/>
+          <include name="getResult"/>
+          <include name="PhysicianPortalLogin"/>
+          <include name="setup"/>
+          <include name="OrderHistoryWorklist"/>
+          <include name="QCComplete"/>
+          <include name="AccesstionType"/>
+          <include name="QC_CompleteButtonOnProfessionalInterpretation"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.CTC_FISHTechOnlyWorkflow -->
+      <class name="biocept.qa.testcases.MolecularWorkflow">
+        <methods>
+          <include name="LogOut"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.MolecularWorkflow -->
+      <class name="biocept.qa.testcases.CTCWorkflow">
+        <methods>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="LogOut"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.CTCWorkflow -->
+      <class name="biocept.qa.testcases.BioceptTestBase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.BioceptTestBase -->
+    </classes>
+  </test> <!-- CTC-FISH Workflow for Tech Cases(failed) -->
+</suite> <!-- Failed suite [Biocept] -->

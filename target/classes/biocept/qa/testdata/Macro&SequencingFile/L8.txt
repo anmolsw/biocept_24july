@@ -1,0 +1,2 @@
+Accession ID	Mutation Name	Avg Mutant CT	Mutant Quantity	Wildtype CT	Wildtype Quantity	Mutant Copies per mL	Wildtype Copies per mL	Allele Fraction	Total DNA Copies per mL	Result	Comment
+19-00087	L858R	40.530315	0.5	31.771767	373.37048	12.25	12.5	10.93	3000	Not Detected	

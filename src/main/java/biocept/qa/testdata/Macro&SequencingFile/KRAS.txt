@@ -1,0 +1,2 @@
+Accession ID	Mutation Name	Avg Mutant CT	Mutant Quantity	Wildtype CT	Wildtype Quantity	Mutant Copies per mL	Wildtype Copies per mL	Allele Fraction	Total DNA Copies per mL	Result	Comment
+19-00151	KRAS	39.1	0.1	33.4	95.3	1	793	0.1	470	Detected	G12D
