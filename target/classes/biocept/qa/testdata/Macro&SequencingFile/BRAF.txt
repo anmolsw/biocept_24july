@@ -1,2 +1,0 @@
-Accession ID	Mutation Name	Avg Mutant CT	Mutant Quantity	Wildtype CT	Wildtype Quantity	Mutant Copies per mL	Wildtype Copies per mL	Allele Fraction	Total DNA Copies per mL	Result	Comment
-19-00173	BRAF	41.4	0.3	35.1	75.7	1	630	24.116	600	Detected	Exon 2 & 3
