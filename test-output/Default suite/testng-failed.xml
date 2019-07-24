@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="biocept.qa.testcases.NewTest1">
+      <class name="biocept.qa.testcases.NewTest">
         <methods>
-          <include name="Actual"/>
+          <include name="Test1"/>
+          <include name="getResult"/>
         </methods>
-      </class> <!-- biocept.qa.testcases.NewTest1 -->
+      </class> <!-- biocept.qa.testcases.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,51 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Biocept]">
-  <test name="Molecular Workflow(failed)">
+  <test name="CTC-FISH Workflow for Global Cases(failed)">
     <classes>
-      <class name="biocept.qa.testcases.CTC_FISHTechOnlyWorkflow">
-        <methods>
-          <include name="LogOut"/>
-          <include name="getResult"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- biocept.qa.testcases.CTC_FISHTechOnlyWorkflow -->
-      <class name="biocept.qa.testcases.MolecularWorkflow">
-        <methods>
-          <include name="PlaceNewOrderForMolecular"/>
-          <include name="KRASSequencingActivityTitle"/>
-          <include name="LogOut"/>
-          <include name="BRAFResultingActivityTitle"/>
-          <include name="setup"/>
-          <include name="NRASResultingActivityTitle"/>
-          <include name="getResult"/>
-          <include name="BRAFResultingUpdateResult"/>
-          <include name="UploadMacroFile"/>
-          <include name="KRASPIActivityResult"/>
-          <include name="NRASPIActivityResult"/>
-          <include name="BRAFSequencingActivityResult"/>
-          <include name="KRASReportSignoff"/>
-          <include name="BRAFPIActivityResult"/>
-          <include name="KRASResultingActivityTitle"/>
-          <include name="NRASReportSignoff"/>
-          <include name="UploadSequenceImages"/>
-          <include name="KRASResultingUpdateResult"/>
-          <include name="BRAFPIActivityTitle"/>
-          <include name="NRASResultingUpdateResult"/>
-          <include name="NRASPIActivityTitle"/>
-          <include name="KRASSequencingActivityResult"/>
-          <include name="BRAFSequencingActivityTitle"/>
-          <include name="KRASPIActivityTitle"/>
-          <include name="BRAFReportSignoff"/>
-        </methods>
-      </class> <!-- biocept.qa.testcases.MolecularWorkflow -->
-      <class name="biocept.qa.testcases.CTCWorkflow">
-        <methods>
-          <include name="setup"/>
-          <include name="getResult"/>
-          <include name="LogOut"/>
-        </methods>
-      </class> <!-- biocept.qa.testcases.CTCWorkflow -->
       <class name="biocept.qa.testcases.BioceptTestBase">
         <methods>
           <include name="tearDown"/>
@@ -53,10 +10,87 @@
           <include name="beforeSuite"/>
         </methods>
       </class> <!-- biocept.qa.testcases.BioceptTestBase -->
+      <class name="biocept.qa.testcases.CTCWorkflow">
+        <methods>
+          <include name="EnumerationImageReviewActivityTitle"/>
+          <include name="CTCICCResultsSummary"/>
+          <include name="LIMSLogin"/>
+          <include name="MemsBatchingActivityTitle"/>
+          <include name="QAReportingWorklist"/>
+          <include name="MEMSProcessingActivityTitle"/>
+          <include name="FISHResultsSummary"/>
+          <include name="ConfirmationPopupOnCompletedWorklist"/>
+          <include name="FISHAutobatchedworklist"/>
+          <include name="FishBatchReviewApproveWorklistTitle"/>
+          <include name="TechOnlyProfessionalInterpretation"/>
+          <include name="CTCICCResultsSummaryActivityTitle"/>
+          <include name="FISHAutobatchedworklistActivityTitle"/>
+          <include name="PIActivityTitle"/>
+          <include name="ReportVersionSelectionPopUp"/>
+          <include name="PlaceNewOrder"/>
+          <include name="CellCepProcessing"/>
+          <include name="CellSepBatching"/>
+          <include name="FishReviewApproveTitle"/>
+          <include name="CellSepBatchingActivityTitle"/>
+          <include name="MEMSProcessing"/>
+          <include name="SignoffTheReportForNewVersion"/>
+          <include name="MemsBatching"/>
+          <include name="FISHResultsSummaryActivityTitle"/>
+          <include name="MyWorklistTitle"/>
+          <include name="CompletedWorklist"/>
+          <include name="FISHReloAnalysis"/>
+          <include name="CellCepProcessingActivityTitle"/>
+          <include name="ActivityTitleAfterReOpen"/>
+          <include name="BioviewScanData"/>
+          <include name="EnumerationImageReview"/>
+          <include name="FISHReloAnalysisActivityTitle"/>
+          <include name="setup"/>
+          <include name="BioviewScanDataActivityTitle"/>
+          <include name="QAReportingWorklistTitle"/>
+          <include name="getResult"/>
+          <include name="FishReportSignoff_Batch"/>
+          <include name="LogOut"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.CTCWorkflow -->
+      <class name="biocept.qa.testcases.MolecularWorkflow">
+        <methods>
+          <include name="LogOut"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.MolecularWorkflow -->
+      <class name="biocept.qa.testcases.CTC_FISHTechOnlyWorkflow">
+        <methods>
+          <include name="LogOut"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.CTC_FISHTechOnlyWorkflow -->
     </classes>
-  </test> <!-- Molecular Workflow(failed) -->
+  </test> <!-- CTC-FISH Workflow for Global Cases(failed) -->
   <test name="CTC-FISH Workflow for Tech Cases(failed)">
     <classes>
+      <class name="biocept.qa.testcases.BioceptTestBase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.BioceptTestBase -->
+      <class name="biocept.qa.testcases.CTCWorkflow">
+        <methods>
+          <include name="setup"/>
+          <include name="getResult"/>
+          <include name="LogOut"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.CTCWorkflow -->
+      <class name="biocept.qa.testcases.MolecularWorkflow">
+        <methods>
+          <include name="LogOut"/>
+          <include name="setup"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- biocept.qa.testcases.MolecularWorkflow -->
       <class name="biocept.qa.testcases.CTC_FISHTechOnlyWorkflow">
         <methods>
           <include name="LogOut"/>
@@ -72,27 +106,6 @@
           <include name="QC_CompleteButtonOnProfessionalInterpretation"/>
         </methods>
       </class> <!-- biocept.qa.testcases.CTC_FISHTechOnlyWorkflow -->
-      <class name="biocept.qa.testcases.MolecularWorkflow">
-        <methods>
-          <include name="LogOut"/>
-          <include name="setup"/>
-          <include name="getResult"/>
-        </methods>
-      </class> <!-- biocept.qa.testcases.MolecularWorkflow -->
-      <class name="biocept.qa.testcases.CTCWorkflow">
-        <methods>
-          <include name="setup"/>
-          <include name="getResult"/>
-          <include name="LogOut"/>
-        </methods>
-      </class> <!-- biocept.qa.testcases.CTCWorkflow -->
-      <class name="biocept.qa.testcases.BioceptTestBase">
-        <methods>
-          <include name="tearDown"/>
-          <include name="beforeTest"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- biocept.qa.testcases.BioceptTestBase -->
     </classes>
   </test> <!-- CTC-FISH Workflow for Tech Cases(failed) -->
 </suite> <!-- Failed suite [Biocept] -->
