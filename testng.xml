@@ -3,20 +3,20 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="biocept.qa.testcases.EGFRWorkflow"/>
+   <!--    <class name="biocept.qa.testcases.EGFRWorkflow"/>
       <class name="biocept.qa.pages.MolecularProfessionalInterpretation"/>
       <class name="biocept.qa.testcases.NRASWorkflow"/>
       <class name="biocept.qa.testcases.BioceptTestBase"/>
       <class name="biocept.qa.pages.Sequencing"/>
       <class name="biocept.qa.testcases.MolecularWorkflow"/>
       <class name="biocept.qa.testcases.CTCWorkflow"/>
-      <class name="biocept.qa.testcases.KRASWorkflow"/>
+      <class name="biocept.qa.testcases.KRASWorkflow"/> -->
       <class name="biocept.qa.testcases.NewTest"/>
-      <class name="biocept.qa.testcases.BRAFWorkflow"/>
+      <!-- <class name="biocept.qa.testcases.BRAFWorkflow"/>
       <class name="biocept.qa.testcases.NewTest1"/>
       <class name="biocept.qa.testcases.CTC_FISHTechOnlyWorkflow"/>
       <class name="biocept.qa.pages.MolecularGenericResulting"/>
-      <class name="biocept.qa.testcases.TestConfig"/>
+      <class name="biocept.qa.testcases.TestConfig"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
