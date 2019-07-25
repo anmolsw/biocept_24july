@@ -2,34 +2,25 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+ 
+
   <groupId>Biocept-Demo</groupId>
   <artifactId>Biocept</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
+ 
+
   <name>Biocept</name>
   <url>http://maven.apache.org</url>
+
+ 
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
-  <build>
-    <plugins>
-       
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.3.9</version>
-        <configuration>
-          <forkCount>0</forkCount>
-          <suiteXmlFiles>
-            <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+
+ 
 
   <dependencies>
         <dependency>
@@ -45,11 +36,15 @@
     <scope>compile</scope>
 </dependency>
 
+ 
+
 <dependency>
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
     <version>3.0.0</version>
 </dependency>
+
+ 
 
 <dependency>
     <groupId>javax.mail</groupId>
@@ -66,5 +61,4 @@
     
      
   </dependencies>
-   
 </project>
