@@ -23,7 +23,7 @@ import biocept.qa.pages.UploadMacroFile;
 import biocept.qa.utill.ExplicitWait;
 import biocept.qa.utill.WorkflowCommonMethods;
 
-public class BRAFWorkflow extends BioceptBase{
+public class BRAFWorkflowTest extends BioceptBase{
 	LoginAndLogOut loginAndLogOut;
 	Dashboard_LIMS dashboard_LIMS;
 	Accession accession;
@@ -39,7 +39,7 @@ public class BRAFWorkflow extends BioceptBase{
 	MolecularReviewAndApproveWorklist molecularReviewAndApproveWorklist;
 
 	
-	public BRAFWorkflow(){
+	public BRAFWorkflowTest(){
 		super();
 	}
 	
