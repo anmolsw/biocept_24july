@@ -23,7 +23,7 @@ import biocept.qa.pages.UploadMacroFile;
 import biocept.qa.utill.ExplicitWait;
 import biocept.qa.utill.WorkflowCommonMethods;
 
-public class EGFRWorkflow extends BioceptBase{
+public class EGFRWorkflowTest extends BioceptBase{
 	
 	
 
@@ -42,7 +42,7 @@ public class EGFRWorkflow extends BioceptBase{
 	MolecularReviewAndApproveWorklist molecularReviewAndApproveWorklist;
 
 	
-	public EGFRWorkflow(){
+	public EGFRWorkflowTest(){
 		super();
 	}
 	

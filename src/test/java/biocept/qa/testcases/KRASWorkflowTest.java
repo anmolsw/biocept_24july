@@ -23,7 +23,7 @@ import biocept.qa.pages.UploadMacroFile;
 import biocept.qa.utill.ExplicitWait;
 import biocept.qa.utill.WorkflowCommonMethods;
 
-public class KRASWorkflow extends BioceptBase{
+public class KRASWorkflowTest extends BioceptBase{
 
 	LoginAndLogOut loginAndLogOut;
 	Dashboard_LIMS dashboard_LIMS;
@@ -40,7 +40,7 @@ public class KRASWorkflow extends BioceptBase{
 	MolecularReviewAndApproveWorklist molecularReviewAndApproveWorklist;
 
 	
-	public KRASWorkflow(){
+	public KRASWorkflowTest(){
 		super();
 	}
 	

@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class test {
+public class Test {
 	public static Properties prop;
 	public static void main(String[] args) {
 		

@@ -28,7 +28,7 @@ import org.testng.annotations.Test;
 	import biocept.qa.utill.ExplicitWait;
 	import biocept.qa.utill.WorkflowCommonMethods;
 
-	public class NRASWorkflow extends BioceptBase{
+	public class NRASWorkflowTest extends BioceptBase{
 
 		LoginAndLogOut loginAndLogOut;
 		Dashboard_LIMS dashboard_LIMS;
@@ -45,7 +45,7 @@ import org.testng.annotations.Test;
 		MolecularReviewAndApproveWorklist molecularReviewAndApproveWorklist;
 
 		
-		public NRASWorkflow(){
+		public NRASWorkflowTest(){
 			super();
 		}
 		

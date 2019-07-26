@@ -7,11 +7,11 @@ import org.testng.annotations.BeforeTest;
 import biocept.qa.base.BioceptBase;
 import biocept.qa.pages.LoginAndLogOut;
 
-public class BioceptTestBase extends BioceptBase{
+public class BioceptTestBaseTest extends BioceptBase{
 	
 	LoginAndLogOut loginAndLogOut = new LoginAndLogOut();
 	
-	public BioceptTestBase(){
+	public BioceptTestBaseTest(){
 		super();
 	}
 	

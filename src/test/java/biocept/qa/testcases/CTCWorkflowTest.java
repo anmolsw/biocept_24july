@@ -41,7 +41,7 @@ import biocept.qa.utill.ExplicitWait;
 import biocept.qa.utill.Screenshot;
 import biocept.qa.utill.WorkflowCommonMethods;
 
-public class CTCWorkflow extends BioceptBase{
+public class CTCWorkflowTest extends BioceptBase{
 	
 //	ExtentReports extent;
 	//ExtentTest test;
@@ -72,7 +72,7 @@ public class CTCWorkflow extends BioceptBase{
 	CompletedWorklist completedWorklist;
 	FISHBatchReviewAndApproveWorklist fishBatchReviewAndApproveWorklist;
 	
-//	public CTCWorkflow(){
+//	public CTCWorkflowTest(){
 //		super();
 //	}
 //	

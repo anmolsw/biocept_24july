@@ -43,7 +43,7 @@ import biocept.qa.utill.ExplicitWait;
 import biocept.qa.utill.Screenshot;
 import biocept.qa.utill.WorkflowCommonMethods;
 
-public class CTC_FISHTechOnlyWorkflow extends BioceptBase{
+public class CTC_FISHTechOnlyWorkflowTest extends BioceptBase{
 
 	
 	

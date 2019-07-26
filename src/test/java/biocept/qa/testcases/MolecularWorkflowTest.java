@@ -29,7 +29,7 @@ import biocept.qa.utill.ExplicitWait;
 import biocept.qa.utill.Screenshot;
 import biocept.qa.utill.WorkflowCommonMethods;
 
-public class MolecularWorkflow extends BioceptBase{
+public class MolecularWorkflowTest extends BioceptBase{
 	
 	LoginAndLogOut loginAndLogOut;
 	Dashboard_LIMS dashboard_LIMS;

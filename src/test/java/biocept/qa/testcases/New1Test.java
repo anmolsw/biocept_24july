@@ -7,7 +7,7 @@ import biocept.qa.base.BioceptBase;
 import biocept.qa.pages.LoginAndLogOut;
 import biocept.qa.utill.ExplicitWait;
 
-public class NewTest1 extends BioceptBase{
+public class New1Test extends BioceptBase{
 	
   @Test(priority =1)
   public void Actual() throws InterruptedException {
